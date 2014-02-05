@@ -1,7 +1,36 @@
 /* Your Website Styles */
+body{
+	background: url("../img/tree_bark.png");
+	font-family: verdana;
 
+}
+
+
+nav{
+	background: #287774;
+}
+	
+li{ 
+	list-style:none;
+	margin:10px 10px 0;
+	float:left;
+	color:#000;
+}
+	
+
+section{
+	background:#fff;
+	opacity:0.5;
+	margin:0;
+}
+
+a{
+
+	text-decoration:none;
+}
 
 /* Show Grid */
 .showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
+	
 }
+
