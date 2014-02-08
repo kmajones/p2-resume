@@ -1,6 +1,6 @@
 /* Your Website Styles */
 body{
-	background: url("../img/low_contrast_linen.png");
+	background: url("../img/concrete_wall.png");
 	font-family: verdana;
 }
 
@@ -8,6 +8,30 @@ header{
 	margin:0 0;
 }
 
+
+h1{
+	background: #277D71;
+	padding: 10px 20px;
+	margin:0 -10px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	position:relative;
+	width:60%;
+	box-shadow:0 2px #1F635A; 
+}
+
+section{
+	background:#70C9A9;
+	
+	margin:0;
+	border-radius:5px;
+}
+
+a{
+		color:#fff;
+
+	}
+	
 
 nav li{ 
 	list-style:none;
@@ -17,35 +41,14 @@ nav li{
 	text-shadow: 0 2px 1px rbga(0,0,0,0.5);
 }
 
-	a{
-		color:#fff;
-
-	}
 	
-section{
-	background:#fff;
-	opacity:0.5;
-	margin:0;
-	border-radius:5px;
-}
-
-h1{
-	background: #666;
-	padding: 10px 20px;
-	margin:0 -10px;
-	border-top-right-radius: 3px;
-	border-bottom-right-radius: 3px;
-	position:relative;
-	width:60%;
-}
-
 .arrow{
 
    width:0;
    height:0;
    line-height:0;
    border-left: 10px solid transparent;
-   border-top: 10px solid #000 ;
+   border-top: 10px solid #1F635A ;
    position: absolute;
    top:100%;
    left:0;
@@ -95,8 +98,8 @@ nav li:hover{
 
 /* Colors 
 background: #333;
-Gray 2 666
-Accent Maybe 74ffb6
-Octopus 2 FFD495
-Octopus 1 FA8C4B
+Gray 2 #666
+Accent Maybe #33A394
+Octopus 2 #FFD495
+Octopus 1 #FA7055
 */
