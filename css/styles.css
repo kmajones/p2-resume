@@ -6,29 +6,29 @@ body{
 }
 
 
-nav{
-	background: #287774;
-}
-	
-li{ 
+nav li{ 
 	list-style:none;
 	margin:10px 10px 0;
 	float:left;
-	color:#000;
+	color:#fff;
+	text-shadow: 0 2px 1px rbga(0,0,0,0.5);
 }
+
+	a{
+		color:#fff;
+
+	}
 	
-header{
-	background:#fff;
-	opacity:0.5;
-	margin:0;
-	border-radius:5px;
-}
 section{
 	background:#fff;
 	opacity:0.5;
 	margin:0;
 	border-radius:5px;
-	height:200px;
+}
+
+h1{
+	background: #666;
+	padding: 5px 0;
 }
 
 footer{
@@ -45,6 +45,20 @@ a{
 
 /* Show Grid */
 .showgrid {
+	background: url(../img/tree_bark.png);
 	
 }
 
+/*hover effects*/
+nav li:hover{
+	margin-top:1px;
+}
+
+
+/* Colors 
+background: #333;
+Gray 2 666
+Accent Maybe 74ffb6
+Octopus 2 FFD495
+Octopus 1 FA8C4B
+*/
