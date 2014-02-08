@@ -28,7 +28,22 @@ section{
 
 h1{
 	background: #666;
-	padding: 5px 0;
+	padding: 10px 20px;
+	margin:0 -10px;
+	position:relative;
+	width:60%;
+}
+
+.arrow{
+
+   width:0;
+   height:0;
+   line-height:0;
+   border-left: 10px solid transparent;
+   border-top: 10px solid #000 ;
+   position: absolute;
+   top:100%;
+   left:0;
 }
 
 footer{
@@ -41,6 +56,25 @@ footer{
 a{
 
 	text-decoration:none;
+}
+
+/*Nav styling*/
+#navigation_container{
+	margin: 0 auto;
+	width:1000px;
+}
+
+.rectangle{
+	background: #74ffb6;
+	height:60px;
+	position:relative;
+	-moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+	border-radius:3px;
+	z-index:500;
+	margin:3em 0;
 }
 
 /* Show Grid */
