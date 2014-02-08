@@ -1,7 +1,8 @@
 /* Your Website Styles */
 body{
 	background: url("../img/concrete_wall.png");
-	font-family: verdana;
+	font-family: 'Alegreya Sans 400', sans-serif;
+	color:#333;
 }
 
 header{
@@ -13,32 +14,43 @@ h1{
 	background: #277D71;
 	padding: 10px 20px;
 	margin:0 -10px;
-	border-top-right-radius: 3px;
-	border-bottom-right-radius: 3px;
+	border-radius: 3px;
 	position:relative;
-	width:60%;
-	box-shadow:0 2px #1F635A; 
+	width:95%;
+	box-shadow:0 3px #1F635A; 
+	font-family: 'Alegreya Sans 300', sans-serif;
+	transition: width 1s;
+}
+
+.long h1{
+	width:980px;
 }
 
 section{
 	background:#70C9A9;
-	
 	margin:0;
 	border-radius:5px;
 }
 
-a{
-		color:#fff;
+p{
+	padding:5px;
+}
 
-	}
+.icons img{
+	padding:0 8px;
+}
+
+a{
+	color:#333;
+}
 	
 
 nav li{ 
 	list-style:none;
 	margin:10px 80px ;
 	float:left;
-	color:#fff;
-	text-shadow: 0 2px 1px rbga(0,0,0,0.5);
+	color:#999;
+	transition: 0.5s;
 }
 
 	
@@ -61,6 +73,8 @@ footer{
 
 }
 
+
+
 a{
 
 	text-decoration:none;
@@ -76,11 +90,11 @@ a{
 	background: #70C9A9;
 	height:60px;
 	position:relative;
-	-moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
-    box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
-   -webkit-border-radius: 3px;
-   -moz-border-radius: 3px;
-	border-radius:3px;
+	-moz-box-shadow: 0px 2px #1F635A;
+    box-shadow: 0px 2px #1F635A;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+	border-radius:5px;
 	margin:0 3 10 3;
 }
 
@@ -91,15 +105,15 @@ a{
 }
 
 /*hover effects*/
+
 nav li:hover{
 	margin-top:1px;
 }
 
 
 /* Colors 
-background: #333;
-Gray 2 #666
-Accent Maybe #33A394
-Octopus 2 #FFD495
-Octopus 1 #FA7055
-*/
+background: #666;
+Octopus 1 #DE745E
+Octopus 2 #EAE696
+Teal: #70C9A9
+Shadow Teal: #1F635A*/
