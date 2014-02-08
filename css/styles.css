@@ -2,13 +2,16 @@
 body{
 	background: url("../img/low_contrast_linen.png");
 	font-family: verdana;
+}
 
+header{
+	margin:0 0;
 }
 
 
 nav li{ 
 	list-style:none;
-	margin:10px 10px 0;
+	margin:10px 80px ;
 	float:left;
 	color:#fff;
 	text-shadow: 0 2px 1px rbga(0,0,0,0.5);
@@ -30,6 +33,8 @@ h1{
 	background: #666;
 	padding: 10px 20px;
 	margin:0 -10px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
 	position:relative;
 	width:60%;
 }
@@ -65,7 +70,7 @@ a{
 }
 
 .rectangle{
-	background: #74ffb6;
+	background: #70C9A9;
 	height:60px;
 	position:relative;
 	-moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
@@ -73,8 +78,7 @@ a{
    -webkit-border-radius: 3px;
    -moz-border-radius: 3px;
 	border-radius:3px;
-	z-index:500;
-	margin:3em 0;
+	margin:0 3 10 3;
 }
 
 /* Show Grid */
