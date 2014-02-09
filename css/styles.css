@@ -43,7 +43,7 @@ p{
 a{
 	color:#333;
 }
-	
+
 
 nav li{ 
 	list-style:none;
@@ -71,6 +71,10 @@ nav li{
 a{
 
 	text-decoration:none;
+}
+
+li img{
+	float:left;
 }
 
 /*Nav styling*/
@@ -101,7 +105,7 @@ a{
 
 /* Layout */
 	.graph {
-	  width: 50%;
+	  width: 100%;
 	  position: relative;
 	  white-space: nowrap;
 	}
@@ -112,15 +116,15 @@ a{
 	  margin-bottom: 1em;
 	}
 
-	/* sizes */
+	/* sizes 
 	@-webkit-size1: 80%;
 	@-webkit-size2: 53%;
 	@-webkit-size3: 60%;
 
-	/*bars*/
+	/*bars
 	.bar1 {
-	  height:25px;
-	  line-height:50px;
+	  height:30px;
+	  line-height:30px;
 	  animation-name: bar1;
 	  animation-duration: 2s;
 	  animation-timing-function: ease;
@@ -128,8 +132,8 @@ a{
 	}
 
 	.bar2 {
-	  height:25px;
-	  line-height:50px;
+	  height:30px;
+	  line-height:30px;
 	  -webkit-animation-name: bar2;
 	  -webkit-animation-duration: 2s;
 	  -webkit-animation-timing-function: ease;
@@ -137,8 +141,8 @@ a{
 	}
 
 	.bar3 {
-	  height:25px;
-	  line-height:50px;
+	  height:30px;
+	  line-height:30px;
 	 -webkit-animation-name: bar3;
 	 -webkit-animation-duration: 2s;
 	 -webkit-animation-timing-function: ease;
@@ -146,14 +150,14 @@ a{
 	}
 
 
-	/*animations*/
+	/*animations
 	@keyframes bar1 {
 	  0% 
 	  {
 	    width: 0;
 	  }
 	  100% {
-	    background: red;
+	    background: #1F635A;
 	    width: @size1;
 	  }
 	}
@@ -163,7 +167,7 @@ a{
 	    width: 0;
 	  }
 	  100% {
-	    background: blue;
+	    background: #1F635A;
 	    width: @size2;
 	  }
 	}
@@ -172,18 +176,17 @@ a{
 	    width: 0;
 	  }
 	  100% {
-	    background: green;
+	    background: #1F635A;
 	    width: @size3;
 	  }
-	}
+	}*/
 
 /*Chrome*/
 
-	@-webkit-size1: 80%;
-	@-webkit-size2: 53%;
-	@-webkit-size3: 60%;
-
 		.bar1 {
+		color:#fff;	
+		padding:0 0 0 3px;
+		border-radius:3px;
 	  -webkit-animation-name: bar1;
 	  -webkit-animation-timing-function: ease;
 	  -webkit-animation-fill-mode: forwards; 
@@ -192,6 +195,9 @@ a{
 	}
 
 	.bar2 {
+		color:#fff;	
+		padding:0 0 0 3px;
+		border-radius:3px;
 	  -webkit-animation-name: bar2;
 	  -webkit-animation-duration: 2s;
 	  -webkit-animation-timing-function: ease;
@@ -199,7 +205,29 @@ a{
 	}
 
 	.bar3 {
+		color:#fff;	
+		padding:0 0 0 3px;
+		border-radius:3px;
 	 -webkit-animation-name: bar3;
+	 -webkit-animation-duration: 2s;
+	 -webkit-animation-timing-function: ease;
+	 -webkit-animation-fill-mode: forwards;
+	}
+
+	.bar4 {
+			color:#fff;	
+			padding:0 0 0 3px;
+			border-radius:3px;
+		 -webkit-animation-name: bar4;
+		 -webkit-animation-duration: 2s;
+		 -webkit-animation-timing-function: ease;
+		 -webkit-animation-fill-mode: forwards;
+		}
+	.bar5 {
+		color:#fff;	
+		padding:0 0 0 3px;
+		border-radius:3px;
+	 -webkit-animation-name: bar5;
 	 -webkit-animation-duration: 2s;
 	 -webkit-animation-timing-function: ease;
 	 -webkit-animation-fill-mode: forwards;
@@ -212,8 +240,8 @@ a{
 	    width: 0;
 	  }
 	  100% {
-	    background: red;
-	    width: @-webkit-size1;
+	    background: #1F635A;
+	    width: 75%;
 	  }
 	}
 
@@ -222,8 +250,8 @@ a{
 	    width: 0;
 	  }
 	  100% {
-	    background: blue;
-	    width: @-webkit-size2;
+	    background: #1F635A;
+	    width: 60%;
 	  }
 	}
 	@-webkit-keyframes bar3 {
@@ -231,8 +259,28 @@ a{
 	    width: 0;
 	  }
 	  100% {
-	    background: green;
-	    width: @-webkit-size3;
+	    background: #1F635A;
+	    width: 90%;
+	  }
+	}
+
+		@-webkit-keyframes bar4 {
+	  0% {
+	    width: 0;
+	  }
+	  100% {
+	    background: #1F635A;
+	    width: 40%;
+	  }
+	}
+
+		@-webkit-keyframes bar5 {
+	  0% {
+	    width: 0;
+	  }
+	  100% {
+	    background: #1F635A;
+	    width: 50%;
 	  }
 	}
 
